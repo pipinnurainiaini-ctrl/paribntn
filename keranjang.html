@@ -1,0 +1,269 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pariwisata Banten</title><link rel="stylesheet" href="assets/css/style.css"><style>
+        /* =====================================
+           NAVBAR BUBBLE PINK
+        ===================================== */
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 18px;
+            padding: 16px 5%;
+        }
+
+        .navbar .brand {
+            flex-shrink: 0;
+            text-decoration: none;
+        }
+
+        .navbar nav {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        /* Bubble masing-masing menu */
+        .navbar nav a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            background: #fff0f5;
+            color: #b7507b;
+            border: 1px solid #f2c7d9;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.4;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+
+        .navbar nav a:hover {
+            background: #e78eaf;
+            border-color: #e78eaf;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Bubble sapaan pengguna */
+        .navbar .user-greeting {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            background: #fce0eb;
+            color: #a84670;
+            border: 1px solid #f2c7d9;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.4;
+            white-space: nowrap;
+        }
+
+        /* Tombol Keluar / Daftar */
+        .navbar nav a.nav-cta {
+            background: #c85f89;
+            border-color: #c85f89;
+            color: #ffffff;
+        }
+
+        .navbar nav a.nav-cta:hover {
+            background: #a84670;
+            border-color: #a84670;
+        }
+
+        /* =====================================
+           FOTO WISATA
+        ===================================== */
+
+        .card img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        /* =====================================
+           WISATA PALING POPULER
+        ===================================== */
+
+        .populer-section {
+            width: calc(100% - 32px);
+            max-width: 1150px;
+            margin: 35px auto 45px;
+            min-width: 0;
+        }
+
+        .populer-heading {
+            margin-bottom: 20px;
+        }
+
+        .populer-heading h2 {
+            margin: 7px 0;
+            color: #c85f89;
+            font-size: 25px;
+        }
+
+        .populer-heading p {
+            color: #927b87;
+            font-size: 13px;
+        }
+
+        .populer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 17px;
+        }
+
+        .populer-card {
+            min-width: 0;
+            overflow: hidden;
+            border: 1px solid #f2d5e1;
+            border-radius: 14px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(160, 91, 120, .09);
+        }
+
+        .populer-foto {
+            position: relative;
+        }
+
+        .populer-foto img {
+            display: block;
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .populer-ranking {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            padding: 6px 11px;
+            border-radius: 20px;
+            background: #e78eaf;
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .populer-body {
+            padding: 16px;
+        }
+
+        .populer-body h3 {
+            margin: 10px 0 7px;
+            color: #59434f;
+            font-size: 17px;
+            overflow-wrap: anywhere;
+        }
+
+        .populer-lokasi,
+        .populer-jumlah {
+            color: #927b87;
+            font-size: 12px;
+        }
+
+        .populer-jumlah {
+            color: #c85f89;
+            font-weight: bold;
+        }
+
+        .populer-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .populer-bottom strong {
+            color: #c85f89;
+        }
+
+        /* =====================================
+           RESPONSIF TABLET
+        ===================================== */
+
+        @media (max-width: 900px) {
+            .navbar {
+                justify-content: center;
+            }
+
+            .navbar nav {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .populer-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        /* =====================================
+           RESPONSIF HP
+        ===================================== */
+
+        @media (max-width: 600px) {
+            .navbar {
+                padding: 12px;
+                gap: 12px;
+            }
+
+            .navbar nav {
+                gap: 8px;
+            }
+
+            .navbar nav a,
+            .navbar .user-greeting {
+                padding: 8px 12px;
+                font-size: 11px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .populer-section {
+                width: calc(100% - 20px);
+                margin: 25px auto;
+            }
+
+            .populer-heading h2 {
+                font-size: 20px;
+            }
+
+            .populer-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .populer-foto img {
+                height: 170px;
+            }
+
+            .populer-body {
+                padding: 13px;
+            }
+        }
+    
+/* FITUR TAMBAHAN */
+.feature-box{background:#fff0f5;border:1px solid #f3c8d9;border-radius:18px;padding:20px;margin:20px 0}
+.feature-box h2,.feature-box h3{color:#c85f89}
+.feature-form{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+.feature-form label{display:flex;flex-direction:column;gap:6px;flex:1 1 170px}
+.feature-form select,.feature-form textarea,.feature-form input{width:100%;padding:10px;border:1px solid #efbfd1;border-radius:9px;background:white}
+.feature-btn{background:#c85f89;color:white;padding:10px 16px;border:0;border-radius:22px;cursor:pointer;text-decoration:none;display:inline-block;font-weight:600}
+.feature-btn:hover{background:#a84670}.feature-link{color:#c85f89;font-weight:700;text-decoration:none}
+.feature-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}.feature-gallery img{width:100%;height:120px;object-fit:cover;border-radius:10px}
+.feature-review{padding:12px 0;border-bottom:1px solid #f2d4df}.feature-muted{color:#927b87;font-size:13px}
+@media(max-width:600px){.feature-box{padding:14px}.feature-form{flex-direction:column;align-items:stretch}.feature-form label{width:100%}}
+
+.navbar nav{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.navbar nav a,.navbar .user-greeting{display:inline-flex;padding:9px 14px;background:#fff0f5;border:1px solid #f2c7d9;border-radius:30px;color:#a84670;text-decoration:none;font-weight:600}.navbar nav a.nav-cta{background:#c85f89;color:white}.navbar nav a:hover{background:#e78eaf;color:white}
+
+.static-notice{background:#fff0f5;color:#8e3b65;padding:12px 5%;font-size:13px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.toolbar input,.toolbar select{padding:12px;border:1px solid #f2c7d9;border-radius:12px;max-width:100%}.card .description{min-height:3em}.card img{object-fit:cover}.empty{padding:24px}.page-panel{max-width:800px;margin:45px auto;padding:24px;background:white;border-radius:20px}.page-panel img{width:100%;max-height:360px;object-fit:cover;border-radius:16px}.pill{border:0;background:#fce0eb;color:#9c4268;padding:9px 15px;border-radius:24px;cursor:pointer}.pill.active{background:#bd648c;color:white}</style></head><body><header class="navbar"><a class="brand" href="index.html">👀 Pariwisata <span>Banten</span></a><nav><a href="index.html">Beranda</a><a href="index.html#wisata">Destinasi</a><a href="faq.html">FAQ</a><a href="favorit.html">❤️ Favorit</a><a href="keranjang.html">Keranjang</a><a href="pesanan.html">Pesanan Demo</a></nav></header><div class="static-notice">Mode demo Netlify: data destinasi dari wisata.json; favorit, keranjang, dan pesanan disimpan di browser ini. Tidak menggunakan database online atau pembayaran asli.</div><main class="container"><h1>🛒 Keranjang</h1><div class="grid" id="cards"></div><section class="page-panel" id="cart-summary"></section></main><footer style="text-align:center;padding:30px">© Pariwisata Banten — Versi HTML untuk Netlify</footer><script src="app.js"></script></body></html>

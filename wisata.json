@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nama": "Pantai Anyer",
+    "lokasi": "Serang",
+    "kategori": "Pantai",
+    "gambar": "assets/css/images/pantai_anyer.jpg",
+    "deskripsi": "Jelajahi keindahan Pantai Anyer di Banten.",
+    "harga": 25000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 2,
+    "nama": "Pantai Sawarna",
+    "lokasi": "Lebak",
+    "kategori": "Pantai",
+    "gambar": "assets/css/images/pantai_sawarna.jpg",
+    "deskripsi": "Jelajahi keindahan Pantai Sawarna di Banten.",
+    "harga": 15000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 3,
+    "nama": "Taman Nasional Ujung Kulon",
+    "lokasi": "Pandeglang",
+    "kategori": "Alam",
+    "gambar": "assets/css/images/ujung_kulon.jpg",
+    "deskripsi": "Jelajahi keindahan Taman Nasional Ujung Kulon di Banten.",
+    "harga": 20000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 4,
+    "nama": "Masjid Agung Banten",
+    "lokasi": "Serang",
+    "kategori": "Religi",
+    "gambar": "assets/css/images/masjid_agung_banten.jpg",
+    "deskripsi": "Jelajahi keindahan Masjid Agung Banten di Banten.",
+    "harga": 10000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 5,
+    "nama": "Keraton Surosowan",
+    "lokasi": "Serang",
+    "kategori": "Sejarah",
+    "gambar": "assets/css/images/keraton_surosowan.jpg",
+    "deskripsi": "Jelajahi keindahan Keraton Surosowan di Banten.",
+    "harga": 12000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 6,
+    "nama": "Pantai Carita",
+    "lokasi": "Pandeglang",
+    "kategori": "Pantai",
+    "gambar": "assets/css/images/pantai_carita.jpg",
+    "deskripsi": "Jelajahi keindahan Pantai Carita di Banten.",
+    "harga": 20000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 7,
+    "nama": "Tanjung Lesung",
+    "lokasi": "Pandeglang",
+    "kategori": "Pantai",
+    "gambar": "assets/css/images/tanjung_lesung.jpg",
+    "deskripsi": "Jelajahi keindahan Tanjung Lesung di Banten.",
+    "harga": 30000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 8,
+    "nama": "Desa Adat Baduy",
+    "lokasi": "Lebak",
+    "kategori": "Budaya",
+    "gambar": "assets/css/images/baduy_banten.jpg",
+    "deskripsi": "Jelajahi keindahan Desa Adat Baduy di Banten.",
+    "harga": 15000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  },
+  {
+    "id": 9,
+    "nama": "Wow Citra",
+    "lokasi": "Serang",
+    "kategori": "Rekreasi",
+    "gambar": "assets/css/images/wow_citra.jpg",
+    "deskripsi": "Jelajahi keindahan Wow Citra di Banten.",
+    "harga": 35000,
+    "harga_keterangan": "Harga simulasi untuk demo, bukan harga resmi"
+  }
+]
